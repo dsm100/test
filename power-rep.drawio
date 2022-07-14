@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-14T10:03:56.039Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="x3c5KVu3Aa2hWQArsTYs" version="20.1.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-07-14T16:46:54.368Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="LbSkD72g2WrAX4oleUTz" version="20.1.1" type="github" pages="3">
   <diagram id="1RxbeGeylmb_Sk9DzVwG" name="Page-1">
-    <mxGraphModel dx="1298" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1298" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -49,7 +49,7 @@
         <mxCell id="nxBVpw9l8fhomxgRzsRb-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="nxBVpw9l8fhomxgRzsRb-2" target="3aPtXWCxgc5EuKdOv9uP-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nxBVpw9l8fhomxgRzsRb-2" value="EdgeEvents" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="nxBVpw9l8fhomxgRzsRb-2" value="Edge-Monitor" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="270" y="300" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nxBVpw9l8fhomxgRzsRb-6" value="Portal UI" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -62,7 +62,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Mwdj6r_NZ2qyA1FYuE4o" name="Page-2">
-    <mxGraphModel dx="1298" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1298" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -184,11 +184,11 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TnopV91hUU50GrPbSGDU" name="Page-3">
-    <mxGraphModel dx="1298" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1298" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="DeziivoRZXe2YRIrk6dp-1" value="Telemetry data collection process" style="swimlane;html=1;childLayout=stackLayout;horizontal=1;startSize=20;horizontalStack=0;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="1" vertex="1">
+        <mxCell id="DeziivoRZXe2YRIrk6dp-1" value="Power telemetry data collection process - on the edge site" style="swimlane;html=1;childLayout=stackLayout;horizontal=1;startSize=20;horizontalStack=0;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="1" vertex="1">
           <mxGeometry x="180" y="70" width="690" height="470.5" as="geometry" />
         </mxCell>
         <mxCell id="DeziivoRZXe2YRIrk6dp-2" value="Prometheus" style="swimlane;html=1;startSize=20;horizontal=0;" parent="DeziivoRZXe2YRIrk6dp-1" vertex="1">
