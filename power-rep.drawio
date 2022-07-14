@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-14T08:39:30.367Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="tPRYzmYuHqLRKfISvs7-" version="20.0.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-07-14T09:01:07.947Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="csdtLkL_XDQBvTa_YI-j" version="20.0.3" type="github" pages="3">
   <diagram id="1RxbeGeylmb_Sk9DzVwG" name="Page-1">
     <mxGraphModel dx="1298" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -66,7 +66,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="JWDo0IMA3wYGbSsYpGFA-1" value="site_metrics" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
+        <mxCell id="JWDo0IMA3wYGbSsYpGFA-1" value="SiteMetricsView" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
           <mxGeometry x="400" y="80" width="100" height="580" as="geometry" />
         </mxCell>
         <mxCell id="JWDo0IMA3wYGbSsYpGFA-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="JWDo0IMA3wYGbSsYpGFA-1" vertex="1">
@@ -139,7 +139,7 @@
         <mxCell id="-E8CvLFJEHhknZxWbH0B-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="-E8CvLFJEHhknZxWbH0B-1">
           <mxGeometry x="45" y="120" width="10" height="420" as="geometry" />
         </mxCell>
-        <mxCell id="-E8CvLFJEHhknZxWbH0B-4" value="query power &lt;br&gt;data" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="-E8CvLFJEHhknZxWbH0B-1">
+        <mxCell id="-E8CvLFJEHhknZxWbH0B-4" value="query power &lt;br&gt;data - GET&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="-E8CvLFJEHhknZxWbH0B-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="45" y="140" as="sourcePoint" />
             <Array as="points">
@@ -158,14 +158,14 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-E8CvLFJEHhknZxWbH0B-5" value="get power&lt;br&gt;&amp;nbsp;telemetry data" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;" edge="1" parent="1">
-          <mxGeometry x="-0.04" relative="1" as="geometry">
+        <mxCell id="-E8CvLFJEHhknZxWbH0B-5" value="query_prometheus_api" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;" edge="1" parent="1">
+          <mxGeometry x="0.2" y="10" relative="1" as="geometry">
             <mxPoint x="595" y="390" as="sourcePoint" />
             <mxPoint x="720" y="390" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JWDo0IMA3wYGbSsYpGFA-12" value="async call &lt;br&gt;to trickster" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;exitX=1.5;exitY=0.508;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1" target="JWDo0IMA3wYGbSsYpGFA-6" source="JWDo0IMA3wYGbSsYpGFA-10">
+        <mxCell id="JWDo0IMA3wYGbSsYpGFA-12" value="async call &lt;br&gt;to trickster&amp;nbsp;&lt;br&gt;AIOClient().get&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;exitX=1.5;exitY=0.508;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1" target="JWDo0IMA3wYGbSsYpGFA-6" source="JWDo0IMA3wYGbSsYpGFA-10">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="600" y="450.00000000000006" as="sourcePoint" />
             <mxPoint x="830" y="450" as="targetPoint" />
