@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-14T09:28:24.274Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="cEPr9VN9db3JvrJghGvM" version="20.0.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-07-14T09:30:24.029Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="nbb0vLtl73VN9DAhyt7m" version="20.0.3" type="github" pages="3">
   <diagram id="1RxbeGeylmb_Sk9DzVwG" name="Page-1">
     <mxGraphModel dx="1298" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -240,11 +240,11 @@
         <mxCell id="DeziivoRZXe2YRIrk6dp-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="DeziivoRZXe2YRIrk6dp-14" source="DeziivoRZXe2YRIrk6dp-17" target="DeziivoRZXe2YRIrk6dp-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DeziivoRZXe2YRIrk6dp-17" value="Plugin" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="DeziivoRZXe2YRIrk6dp-14">
+        <mxCell id="DeziivoRZXe2YRIrk6dp-17" value="SNMP Power Plugin" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="DeziivoRZXe2YRIrk6dp-14">
           <mxGeometry x="380" y="56.75" width="70" height="37" as="geometry" />
         </mxCell>
-        <mxCell id="DeziivoRZXe2YRIrk6dp-18" value="-caches the data - store values in cache&lt;br&gt;-refresh rate - read frequency &lt;br&gt;for telemetry&lt;br&gt;-configuration itself with metadata" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="DeziivoRZXe2YRIrk6dp-14">
-          <mxGeometry x="450" y="55" width="240" height="70" as="geometry" />
+        <mxCell id="DeziivoRZXe2YRIrk6dp-18" value="-caches the telemetry data&amp;nbsp;&lt;br&gt;-refresh rate - read frequency &lt;br&gt;for telemetry&lt;br&gt;-configures itself with provided &lt;br&gt;device metadata" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="DeziivoRZXe2YRIrk6dp-14">
+          <mxGeometry x="480" y="45" width="180" height="90" as="geometry" />
         </mxCell>
         <mxCell id="DeziivoRZXe2YRIrk6dp-19" value="-synse is a pass through&lt;br&gt;-all requests coming from blackbox &lt;br&gt;are delegated to plugin" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="DeziivoRZXe2YRIrk6dp-14">
           <mxGeometry x="100" y="90.5" width="210" height="60" as="geometry" />
